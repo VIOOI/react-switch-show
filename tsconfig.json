@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "esNext",
+    "target": "esNext",
+		"jsx": "react",
+    "outDir": "./",
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+		"declaration": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
